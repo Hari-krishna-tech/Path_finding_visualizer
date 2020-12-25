@@ -1,0 +1,16 @@
+.total {
+  display: flex;
+  flex-direction: column;
+}
+
+.visualize-button {
+  width: 20vw;
+  padding: 12px 24px;
+  border: none;
+  margin: auto;
+  background-color: #1abc9c;
+}
+
+.button {
+  display: flex;
+}

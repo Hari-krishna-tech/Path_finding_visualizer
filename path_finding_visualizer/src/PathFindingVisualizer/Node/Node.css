@@ -1,8 +1,14 @@
 .node {
   width: 25px;
   height: 25px;
-  border: 1px solid black;
+  outline: 1px solid rgb(175, 216, 248);
   display: inline-block;
+  margin: 0;
+  margin-top: 0;
+}
+
+.weight {
+  background-color: rgb(255, 2, 179);
 }
 
 .start {
@@ -18,4 +24,7 @@
 
 .shortest-path {
   background-color: yellow;
+}
+.wall {
+  background-color: black;
 }

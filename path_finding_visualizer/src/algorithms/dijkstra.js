@@ -22,7 +22,7 @@ export const dijkstra = (grid,startNode,finishNode) => {
 const addUnVisitedNeighborDistance = (grid,node) => {
     const unVisitedNeighbors = getAllUnvisitedNeighbors(grid,node)
     for(const neighbor of unVisitedNeighbors){
-        neighbor.distance = node.distance + 1
+        neighbor.distance = node.distance + neighbor.weight
         neighbor.previousNode = node
     }
     
